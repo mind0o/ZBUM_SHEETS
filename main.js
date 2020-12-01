@@ -187,11 +187,11 @@ async function returnDataID(val){
 // console.log(JSON.stringify(res.data.values));
  for(var i =0; i<res.data.values.length;i++){
      if(JSON.stringify(res.data.values[i][0]) == null){
-       textData[i] = " ";
+       textData2[i] = " ";
      }else{
-       textData[i] = JSON.stringify(res.data.values[i][0]);
+       textData2[i] = JSON.stringify(res.data.values[i][0]);
      }
-     textData[i] = textData[i].replace(/\"/g, "");
+     textData2[i] = textData2[i].replace(/\"/g, "");
    //  console.log(textData[i] );
  }
  
