@@ -196,7 +196,7 @@ async function returnDataID(val){
  }
  
  
- var pos = textData.indexOf(val);
+ var pos = textData2.indexOf(val);
 
  if(pos < 0){
    globalRes.send("error");
